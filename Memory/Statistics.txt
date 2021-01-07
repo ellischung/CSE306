@@ -1,0 +1,45 @@
+/**
+   Ellis Chung
+   ELLCHUNG
+   111135169
+
+   I pledge my honor that all parts of this project were done by me individually, without
+   collaboration with anyone, and without consulting any external sources that provide
+   full or partial solutions to a similar project.
+   I understand that breaking this pledge will result in an F for the entire course.
+*/
+
+Statistics for my modified M2HC algorithm:
+
+Pages swapped in:
+OSP.jar (my implementation): 960
+Demo.jar: 1406
+
+Pages swapped out:
+OSP.jar (my implementation): 418
+Demo.jar: 316
+
+CPU Utilization:
+OSP.jar (my implementation): 87.071594%
+Demo.jar: 68.5272%
+
+Service time per thread (avg turnaround time):
+OSP.jar (my implementation): 25562.082
+Demo.jar: 35372.37
+
+Normalized service time per thread (avg normalized turnaround time):
+OSP.jar (my implementation): 0.06763846
+Demo.jar: 0.04708984
+
+In terms of swapping pages in and out, Demo.jar uses a FIFO algorithm that searches the entire
+table and chooses the first frame that was in memory the longest. In OSP.jar, the M2HC algorithm
+is more efficient because it protects pages that were referenced many times throughout the 
+execution of the program.
+
+Page faults can hurt CPU utilization and average turnaround times for the operating system due
+to the increasing need for read operations which are expensive and take extremely long.
+Therefore, by decreasing the amount that they occur with the M2HC algorithm, we can expect
+improved performance.
+
+On average, OSP.jar performed much more efficiently compared to Demo.jar based on the above
+statistics.

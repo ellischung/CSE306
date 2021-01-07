@@ -1,0 +1,56 @@
+/**
+   Ellis Chung
+   ELLCHUNG
+   111135169
+
+   I pledge my honor that all parts of this project were done by me individually, without
+   collaboration with anyone, and without consulting any external sources that provide
+   full or partial solutions to a similar project.
+   I understand that breaking this pledge will result in an F for the entire course.
+*/
+
+Statistics for SSTF algorithm:
+
+Total number of tracks swept on each device:
+
+Demo.jar: 
+Device 1 - 11253
+Device 2 - 187 
+Device 3 - 28
+OSP.jar (my implementation): 
+Device 1. 7362
+Device 2. 47
+Device 3. 39
+
+Average number of tracks swept per I/O request:
+
+Demo.jar: 
+Device 1 - 7
+Device 2 - 2 
+Device 3 - 1
+OSP.jar (my implementation): 
+Device 1. 4
+Device 2. 1
+Device 3. 1
+
+Average turnaround time for I/O requests:
+
+Demo.jar: 
+Device 1 - 933
+Device 2 - 345
+Device 3 - 777
+OSP.jar (my implementation): 
+Device 1. 936
+Device 2. 202
+Device 3. 1292
+
+System Throughput:
+
+Demo.jar: 
+Device 1 - 13.19
+Device 2 - 0.65
+Device 3 - 0.04
+OSP.jar (my implementation): 
+Device 1. 8.16
+Device 2. 0.32
+Device 3. 0.02
